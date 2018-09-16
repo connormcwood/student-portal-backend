@@ -9,7 +9,7 @@ const teacherRouters = require('./api/routes/teachers');
 const moduleRouters = require('./api/routes/modules');
 const gradeRouters = require('./api/routes/grades');
 
-mongoose.connect('mongodb://localhost:27017/studentportaldb', {useNewUrlParser: true});
+mongoose.connect('mongodb://172.18.0.2:27017/studentportaldb', {useNewUrlParser: true});
 
 app.use(morgan('dev'));
 app.use('/uploads', express.static('uploads'));

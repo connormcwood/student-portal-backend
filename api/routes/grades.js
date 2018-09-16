@@ -7,7 +7,7 @@ const ModuleSchema = require('../models/modules');
 
 const mongoose = require('mongoose');
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = 'http://172.17.0.3:3000';
 
 function gradeToResp(doc) {
     const gradeData = {

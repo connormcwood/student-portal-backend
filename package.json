@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js sudo service mongodb start",
-    "stop": "sudo service mongodb stop"
+    "dev": "nodemon server.js sudo service mongodb start",
+    "stop": "sudo service mongodb stop",
+    "start": "node server.js"
   },
   "author": "Connor Mcgarty-Wood",
   "license": "ISC",
